@@ -1,14 +1,41 @@
 {
-    "extends": "airbnb",
-    "rules": {
-        "semi": [2,"never"],
-        "react/prefer-stateless-function": [
-            0
-        ],
-        "react/jsx-filename-extension": [1,{"extensions":[".js",".jsx"]}],
-        "import/no-extraneous-dependencies": [
-            "error",
-            {"devDependencies": true}
+  "env": {
+    "browser": false,
+    "node": true
+  },
+  "globals": {
+    "document": false
+  },
+  "extends": "airbnb",
+  "rules": {
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
+    "semi": [
+      2,
+      "never"
+    ],
+    "react/jsx-tag-spacing": [
+      0
+    ],
+    "react/prefer-stateless-function": [
+      0
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
         ]
-    }
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ]
+  }
 }

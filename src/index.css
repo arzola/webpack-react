@@ -1,0 +1,13 @@
+body {
+    background: red;
+}
+
+.Board {
+    display: table;
+    width: 100%;
+}
+
+.square {
+    width: 33.3%;
+    float: left;
+}
